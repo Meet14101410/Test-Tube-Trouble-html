@@ -1,0 +1,8 @@
+function mix(tube) {
+  const colors = ["#4fc3f7", "#81c784", "#ff8a65"];
+  const color = colors[Math.floor(Math.random() * colors.length)];
+
+  tube.style.background = color;
+  document.getElementById("result").innerText =
+    Math.random() > 0.5 ? "✅ Successful Reaction!" : "❌ Reaction Failed!";
+}
