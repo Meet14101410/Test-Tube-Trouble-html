@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Tube Trouble</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🧪 Test Tube Trouble</h1>
+
+  <div id="lab">
+    <div class="tube" onclick="mix(this)"></div>
+    <div class="tube" onclick="mix(this)"></div>
+    <div class="tube" onclick="mix(this)"></div>
+  </div>
+
+  <p id="result">Mix the correct chemicals!</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
